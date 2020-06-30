@@ -44,6 +44,9 @@ class App extends React.Component {
       <div className="App">
         <content className='values'>
           <div>
+            This page shows various examples of what we can do with <a href='http://numeraljs.com/'>NumeralJS</a>
+          </div>
+          <div>
             Default value: 
             <input type='number' value={this.state.value} onChange={this.handleChange}></input>
           </div>
