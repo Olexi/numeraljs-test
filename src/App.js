@@ -8,9 +8,7 @@ class App extends React.Component {
     this.state = {
       value: '123', customLocale: false
     };
-    // this.handleChange = this.handleChange.bind(this);
-    console.log('constructor');
-
+    this.handleChange = this.handleChange.bind(this);
   }
 
   componentWillMount() {
